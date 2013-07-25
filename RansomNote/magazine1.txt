@@ -1,0 +1,76 @@
+Evaluative texts on the Web have become a valuable source of
+opinions on products, services, events, individuals, etc. Recently,
+many researchers have studied such opinion sources as product
+reviews, forum posts, and blogs. However, existing research has
+been focused on classification and summarization of opinions
+using natural language processing and data mining techniques. An
+important issue that has been neglected so far is opinion spam or
+trustworthiness of online opinions. In this paper, we study this
+issue in the context of product reviews, which are opinion rich
+and are widely used by consumers and product manufacturers. In
+the past two years, several startup companies also appeared which
+aggregate opinions from product reviews. It is thus high time to
+study spam in reviews. To the best of our knowledge, there is still
+no published study on this topic, although Web spam and email
+spam have been investigated extensively. We will see that opinion
+spam is quite different from Web spam and email spam, and thus
+requires different detection techniques. Based on the analysis of
+5.8 million reviews and 2.14 million reviewers from amazon.com,
+we show that opinion spam in reviews is widespread. This paper
+analyzes such spam activities and presents some novel techniques
+to detect them.
+The Web has dramatically changed the way that people express
+themselves and interact with others. They can now post reviews
+of products at merchant sites and express their views and interact
+with others via blogs and forums. Such content contributed by
+Web users is collectively called the user-generated content (as
+opposed to the content provided by Web site owners). It is now
+well recognized that the user generated content contains valuable
+information that can be exploited for many applications. In this
+paper, we focus on customer reviews of products. In particular,
+we investigate opinion spam in reviews. Reviews contain rich
+user opinions on products and services. They are used by potential
+customers to find opinions of existing users before deciding to
+purchase a product. They are also used by product manufacturers
+to identify product problems and/or to find marketing intelligence
+information about their competitors [12, 16].
+In the past few years, there was a growing interest in mining
+opinions in reviews from both academia and industry. However,
+the existing work has been mainly focused on extracting and
+summarizing opinions from reviews using natural language
+processing and data mining techniques [e.g., 7, 12, 20, 21, 23].
+Little is known about the characteristics of reviews and behaviors
+of reviewers. There is also no reported study on the
+trustworthiness of opinions in reviews. Due to the fact that there is
+no quality control, anyone can write anything on the Web. This
+results in many low quality reviews, and worse still review spam.
+Review spam is similar to Web page spam. In the context of Web
+search, due to the economic and/or publicity value of the rank
+position of a page returned by a search engine, Web page spam is
+widespread [3, 5, 10, 24, 25, 26]. Web page spam refers to the use
+of “illegitimate means” to boost the rank positions of some target
+pages in search engines [10, 19]. In the context of reviews, the
+problem is similar, but also quite different.
+It is now very common for people to read opinions on the Web for
+many purposes. For example, if one wants to buy a product and
+sees that the reviews of the product are mostly positive, one is
+very likely to buy it. If the reviews are mostly negative, one is
+very likely to choose another product. Positive opinions can result
+in significant financial gains and/or fames for organizations and
+individuals. This gives good incentives for review/opinion spam.
+There are generally three types of spam reviews:
+Type 1 (untruthful opinions): Those that deliberately mislead
+readers or opinion mining systems by giving undeserving
+positive reviews to some target objects in order to promote the
+objects (which we call hyper spam) and/or by giving unjust or
+malicious negative reviews to some other objects in order to
+damage their reputations (which we call defaming spam).
+Untruthful reviews are also known as fake reviews or bogus
+reviews. They have become a topic of intense discussion in
+blogs and forums. A recent study by Burson-Marsteller
+(http://www.burson-marsteller.com/Newsroom/Lists/BMNews/
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page. To copy otherwise,
+or republish, to post on servers
